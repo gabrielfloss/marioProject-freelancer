@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+
+}
+
+.mainLogo {
+    height: 200px;
+    width: 270px;
+}
+
+.marioLuigi {
+    height: 430px;
+
+}
+
+.logo-header-mario {
+    height: 100px;
+    width: 100px;
+
+}
+
+body {
+    height: 100px;
+    background-color: #000000;
+
+
+
+
+}
+
+.boxMother {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 100px;
+    justify-content: space-around;
+}
+
+button {
+    margin-top: 30px;
+    background-color: #c51111;
+    color: aliceblue;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: greenyellow;
+    color: black;
+}
+
+button:active {
+    opacity: 0.9;
+}
+
+.leftFoulder {
+    width: 100%;
+}
+
+video {
+    min-height: 100%;
+    min-width: 100%;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    opacity: 0.2;
+
+}
+
+p {
+    color: white;
+    font-size: 20px;
+
+
+}
+
+.mask {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+
+}
+
+.linkZap,
+img {
+    height: 60px;
+    z-index: 1;
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+}
+
+
+header img {
+    width: 60px;
+    margin: 20px
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: aliceblue;
+    padding-right: 30px;
+}
+
+header a {
+    cursor: pointer;
+    font-size: 24px;
+
+}
+
+header a:hover {
+    color: #c51111;
+    font-size: 26px;
+    transition: 0.9s ease-in-out;
+}
+
+
+.faleConosco {
+    width: 270px;
+    background-color: white;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    position: fixed;
+    top: 30%;
+    left: -260px;
+    padding: 20px;
+    border-radius: 5px;
+    transition: left 1s ease-in-out;
+
+}
+
+input {
+
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding-left: 5px;
+    outline: none color #18d80f;
+}
+
+textarea {
+    width: 230px;
+    height: 125px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding-left: 10px;
+    margin-top: 5px;
+    outline: none, color #18d80f;
+}
+
+.maskFormulary {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    transition: visibility 0.9s ease-in-out;
+}
+
+
+
+/*
+
+inicial 
+      top: 30px;
+      left: -300px;
+
+      final
+       top: 0
+       left: 40%
+       transform: translateX (-50%);
